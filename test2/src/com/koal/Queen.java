@@ -63,6 +63,7 @@ public class Queen {
 		    }
 		   
 		    public static void main(String args[]){
+		    	ArrayList<String>().getNum(1);
 		    	  
 		          getNum(0);
 		          System.out.println("棋盘问题有"+num+"种摆放方法");
