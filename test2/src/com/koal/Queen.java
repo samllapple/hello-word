@@ -1,5 +1,7 @@
 package com.koal;
 
+import java.util.ArrayList;
+
 /*
  * 八皇后问题是一个古老而著名的问题，是回溯算法的典型例题。
  * 该问题是十九世纪著名的数学家高斯1850年提出：
@@ -63,7 +65,7 @@ public class Queen {
 		    }
 		   
 		    public static void main(String args[]){
-		    	ArrayList<String>().getNum(1);
+		    	//(new ArrayList<String>()).get(1);
 		    	  
 		          getNum(0);
 		          System.out.println("棋盘问题有"+num+"种摆放方法");
