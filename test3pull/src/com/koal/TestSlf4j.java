@@ -9,9 +9,11 @@ public class TestSlf4j {
 		
 		Logger logger = LoggerFactory.getLogger(TestSlf4j.class);
 		String message="hello";
-		logger.info("This is a test message: {}", message);
-		logger.debug(message);
 		logger.error(message);
+		logger.debug(message);
+		logger.info(message);
+		
+		
 		
 	}
 
