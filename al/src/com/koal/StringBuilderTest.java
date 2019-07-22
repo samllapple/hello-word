@@ -30,6 +30,8 @@ public class StringBuilderTest {
 		System.out.println(replace2);
 		StringBuffer replace3 = sb1.replace(0, 1, "efd");
 		System.out.println(replace3);
+		StringBuffer insert = sb1.insert(3, 't');
+		System.out.println(insert);
 
 	}
 
